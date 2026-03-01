@@ -36,22 +36,29 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 ## env local
 
 
-## MongoDB Connection String
+MongoDB Connection String
+
 MONGODB_URI=mongodb://127.0.0.1:27017/jwt-auth
 
-### JWT Secret — change this to a long random string in production
+
+JWT Secret — change this to a long random string in production
 JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
 
-## Email (Nodemailer) — use an App Password for Gmail
-### To get one: Google Account → Security → 2-Step Verification → App Passwords
+Email (Nodemailer) — use an App Password for Gmail
+To get one: Google Account → Security → 2-Step Verification → App Passwords
+
 EMAIL_USER=______@gmail.com
 EMAIL_PASS=abababababababab 
 
-## Next.js
+
+Next.js
+
 NEXT_PUBLIC_APP_URL=http://localhost:3000
 
-### Cloudinary — for blog image uploads in the admin panel
-### Get these from: https://cloudinary.com → Dashboard → API Keys
+
+ Cloudinary — for blog image uploads in the admin panel
+Get these from: https://cloudinary.com → Dashboard → API Keys
+
 CLOUDINARY_CLOUD_NAME=
 CLOUDINARY_API_KEY=
 CLOUDINARY_API_SECRET=
