@@ -48,7 +48,8 @@ JWT_SECRET=your_super_secret_jwt_key_change_this_in_production
 
 # Email (Gmail App Password Required)
 
-EMAIL_USER=your_email@gmail.com
+EMAIL_USER=your_email@gmail.com 
+
 EMAIL_PASS=your_16_character_app_password
 
 
@@ -59,6 +60,8 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 
 ## Cloudinary (Image Upload)
 
-CLOUDINARY_CLOUD_NAME=your_cloud_name
-CLOUDINARY_API_KEY=your_api_key
+CLOUDINARY_CLOUD_NAME=your_cloud_name 
+
+CLOUDINARY_API_KEY=your_api_key 
+
 CLOUDINARY_API_SECRET=your_api_secret
